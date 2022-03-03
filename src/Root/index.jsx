@@ -1,13 +1,13 @@
 import Body from "../Components/Body"
-import Sidebar from "../Components/Sidebar"
+import Navbar from "../Components/Navbar"
 import { Container } from "./style"
 
 const Root = () => {
 
     return(
         <Container>
-            <Sidebar />
-            <Body />
+            <Navbar /> 
+            <Body /> 
         </Container>
     )
 }
