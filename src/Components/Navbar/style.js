@@ -9,6 +9,10 @@ import {ReactComponent as bell} from '../../assets/navbar/bell.svg'
 import {ReactComponent as person} from '../../assets/navbar/person.svg'
 
 export const Container = styled.div`
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
     display: flex;
     justify-content: space-between;
     align-items: center;

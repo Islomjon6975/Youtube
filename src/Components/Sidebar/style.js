@@ -1,15 +1,12 @@
 import styled from "styled-components";
 
-
 export const Container = styled.div`
+
     display: ${({displayy})=>displayy ? 'none' : 'flex'};
     flex-direction: column;
-    width: 300px;
-    /* flex: 2; */
-    height: 100vh;
+    width: 380px;
     background: #212121;
     height: calc(100vh - 56px);
-    padding-right: ${({scroll})=>scroll ? '8px' : '0'};
     overflow-y: ${({scroll})=> scroll ? 'auto' : 'hidden'};
     ::-webkit-scrollbar{
         width:8px;
@@ -29,6 +26,7 @@ export const Container = styled.div`
         background-color: #888;
         
     }
+    padding-top: 15px;
     
 `
 

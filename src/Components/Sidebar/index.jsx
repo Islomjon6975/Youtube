@@ -35,10 +35,7 @@ const Sidebar = () => {
                             <Icons_tolqin src={value.tolqin} sizee={value.id > 3 && '8px'} />
                         </Wrapper>
                     ))
-                }
-           
-            
-            
+                }  
         </Container>
     )
 }
