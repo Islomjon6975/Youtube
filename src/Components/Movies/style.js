@@ -26,6 +26,7 @@
     `
 
     export const Buttons_container = styled.div`
+        position: fixed;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -35,6 +36,7 @@
         border-top: 1px solid rgba(255, 255, 255, 0.2);
         border-bottom: 1px solid rgba(255, 255, 255, 0.2);
         box-sizing: border-box;
+        z-index: 999;
     `
 
     export const Button = styled.div`
@@ -99,4 +101,15 @@ box-shadow: 1px 7px 13px 1px rgba(0,0,0,0.67);
         line-height: 22px;
         color: #FFFFFF;
         
+    `
+
+    export const NoVideo = styled.div`
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: calc(100vh - 56px - 56px);
+        font-size:30px;
+        color: white;
+        font-weight: 700;
     `

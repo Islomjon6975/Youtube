@@ -38,6 +38,9 @@ export const Wrapper = styled.div`
     height: 50px;
     background-color: ${({color})=>color && '#4D4D4D'};
     padding-left: 27px;
+    :hover{
+        background-color: #4D4D4D;
+    }
     border-bottom: ${({border})=>border && '1px solid rgba(255, 255, 255, 0.2)'};
 `   
 
@@ -59,4 +62,39 @@ export const Icons_tolqin = styled.img`
     width: ${({sizee})=>sizee ? sizee:'20px' };
     height: ${({sizee})=>sizee ? sizee:'20px'};
     margin-left: ${({sizee})=>sizee=='8px'? '5px' : '0'};
+`
+
+
+export const False_container = styled.div`
+    width: 80px;
+    height: calc(100vh - 56px);
+    background-color: #212121;
+    box-shadow: 2px 2px 19px 5px rgba(0,0,0,0.69);
+`
+
+export const Iconsss =styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: ${({color})=>color && '#4D4D4D'};
+
+    :hover{
+        background-color: #4D4D4D;
+    }
+    
+`
+
+export const Iconsss_title = styled.div`
+    font-size: 11px;
+    font-size: 700;
+    margin-top: 5px;
+    color: whitesmoke;
+`
+
+export const Iconsss_icon = styled.img`
+    width: 23px;
+    height: 23px;
 `
